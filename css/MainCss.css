@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.w{
+	width: 1290px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	clear: both;
+}
+.divAll{
+	width: 100%;
+}
+/*.divLogin{
+	width: 100%;
+	height: 30px;
+	background-color: #F3F5F7;
+}
+*/
+.divLogin{
+		width: 100%;
+		height: 30px;
+		background-color: #F3F5F7;
+}
+.divLogin .loginLeft{
+	float: left;
+}
+.divLogin .loginLeft li,.divLogin .LoginRight li{
+	margin-left: 20px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.loginLeftA{
+	position: relative;
+	/* display: block; */
+}
+.loginLeftA:hover .loginLeftWx{
+	display: block;
+}
+.loginLeftA .loginLeftWx{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	z-index: 2;
+	background: url(../img/wx.jpg)no-repeat;
+	background-size: 100%;
+}
+.divLogin a{
+	color: #999;
+}
+.divLogin a:hover{
+	color: #FF734C;
+}
+.divLogin .LoginRight{
+	float: right;
+}
+
+ .loginLeft ul{
+	float: left;
+}
+ .LoginRight ul{
+	float: right;
+}
+ .loginLeft  li,.LoginRight  li{
+	float: left;
+}
+.divLunBo{
+width: 100%;
+	height: 460px;
+}
+.divLunBo img{
+	width: 100%;
+	height: 100%;
+}
+/* 菜单 */
+ .divMainMenu {
+            width: 100%;
+            height: 40px;
+            background-color: darksalmon;
+        }
+        .divMenuContent {
+            width: 65%;
+            margin: 0 auto;
+            background-color: deepskyblue;
+        }
+
+        .divMenuContent ul li {
+            width: 12%;
+            height: 40px;
+            line-height: 40px;
+            display: block;
+            float: left;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+		
+        }
+
+        .divMenuContent ul li:hover {
+            background-color: darksalmon;
+            color: deeppink;
+        }
+
+        .divMenuContent ul li:hover ul li {
+            display: block;
+        }
+
+        .divMenuContent ul li ul {
+			position: relative;
+            padding: 0;
+        }
+
+        .flowerVoide {
+            background-color: #FDA48C;
+        }
+
+        .divMenuContent ul li ul li:hover {
+            background-color: darksalmon;
+        }
+
+        .divMenuContent ul li ul li {
+            width: 100%;
+            background-color: darksalmon;
+            border-right: 0;
+            display: none;
+				border-bottom: 1px dashed #fff;
+            
+        }
+/* 花单内容 */
+.divContent{
+	z-index: 1;
+	width: 100%;
+	height: 400px;
+}
+.divContentLeft{
+	float: left;
+	width: 20%;
+	background-color: #99F899
+}
+.divContenOne{
+	background-color: #87CEEB;
+	text-align: center;
+}
+.divContentLeft ul li{
+	background-color: #fff;
+	margin: 1px;
+	text-align: center;
+	height:40px;
+	color: #FF734C;
+	line-height: 40px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.divContentLeft ul li:hover{
+	background-color: pink;
+}
+.divContentLeft .LeftTop,.divContentLeft .LeftDown{
+	height: 50%;
+}
+.divContentRight ul{
+	margin-top: 22px;
+	margin-left: 40px;
+}
+.divContentRight ul li{
+	width: 23%;
+	/* width: 230px; */
+	height: 350px;
+	background-color: #fff;
+	float: left;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 7px #ccc;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.divContentRight{
+	float: right;
+	width: 79.5%;
+	text-align: center;
+}
+.divContentRight .loveFlower{
+	margin-top: 20px;
+}
+.divContentRight .loveFlower p{
+	text-align: left;
+}
+.divContentRight .loveFlower p span:nth-child(1){
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.divContentRight .loveFlower p span:nth-child(1):hover{
+	color: #FF734C;
+}
+.divContentRight .loveFlower p span{
+	font-size: 18px;
+	font-weight: normal;
+}
+.divContentRight ul li .RightFulowerTop{
+	width: 100%;
+	height: 241px;
+	 cursor: pointer;
+	/* text-align: center; */
+}
+.divContentRight ul li:hover .RightFulowerDown p{
+	color: #ff734c;
+	cursor: pointer;
+}
+.divContentRight ul li .RightFulowerTop img{
+	/* width: 339px;
+	height: 232px; */
+	width: 100%;
+	height: 100%;
+	 transition: all 0.6s;
+	 cursor: pointer;
+}
+.divContentRight ul li .RightFulowerTop img:hover{
+	 transform: scale(1.05);
+}
+.RightFulowerDown{
+	margin-top: 20px;
+}
+.RightFulowerDown p{
+	margin-top: 5px;
+}
+.RightFulowerDown .title{
+	font-size: 16px;
+	color: #232628;
+}
+.RightFulowerDown .price{
+	font-weight: 600;
+}
+.RightFulowerDown .count{
+	font-size: 12px;
+	color: #71797f;
+}
+.divFooter{
+	width: 100%;
+	height: 100px;
+	background-color: skyblue;
+	clear: both;
+}
+.swiper-container {
+    width: 100%;
+    height:460px ;
+}  
+.swiper-slide img{
+	width: 100%;
+	 height:460px ;
+}
+.fiex{
+	position: fixed;
+	top: 50%;
+	right: 15px;
+	width: 70px;
+	height: 220px;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 999;
+	border: 1px solid #ccc;
+}
+.fiex img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-top: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.divFooter .list {
+	width: 800px;
+	margin: 0 auto;
+}
+.divFooter .list ul li{
+	float: left;
+	margin-left: 20px;
+	line-height: 75px;
+	/* width: 120%; */
+}
+.divFooter .list ul li a{
+	color: #fff;
+}
+.handleView{
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	box-shadow: 5px 5px 5px #ccc;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	z-index: 9999;
+	display: none;
+}
+.handleView .btn{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 80px;
+
+}
+.handleView .content{
+	text-align: center;
+	line-height: 200px;
+	font-weight: bold;
+	font-size: 20px;
+}

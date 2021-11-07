@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.w{
+	width: 1290px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background:url(../img/bg.png);
+}
+.detail{
+	width: 100%;
+	height: 550px;
+	margin-top: 40px;
+}
+.detailLeft{
+	width: 40%;
+	height: 500px;
+	margin-left: 20px;
+	border-radius: 15px;
+	overflow: hidden;
+	float: left;
+	box-shadow: 8px -3px 20px #ccc;
+}
+.detailLeft img{
+	width: 100%;
+	height: 100%;
+}
+.detailRight{
+	width: 54%;
+	height: 500px;
+	float: right;
+	margin-left: 20px;
+}
+.detailRight>div{
+	margin-top: 10px;
+}
+.title-name{
+	font-size: 30px;
+	font-weight:600;
+	
+}
+.title-detial .tag{
+	color: #ff3d12;
+}
+.goods-price-warp{
+	width: 80%;
+	height: 100px;
+	background: #f3f5f7;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0;
+}
+.goods-price-name{
+	width: 50px;
+	height: 100%;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	color: #71797f;
+}
+.goods-price-name span{
+	float: left;
+
+}
+.goods-price{
+	font-size: 25px;
+	color: #ff3d12;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 20px;
+}
+.goods-oldprice{
+	font-size: 13px;
+	color: #71797f;
+}
+.goods-pay{
+	float: right;
+	line-height: 100px;
+	text-align: center;
+	margin-right: 50px;
+	font-size: 12px;
+}
+.goods-pay i{
+	color: #ff3d12;
+}
+.content .content-item .huayu{
+	width: 80%;
+	display: flex;
+	margin-top: 10px;
+}
+.huayu-title{
+	flex: 1;
+	font-size: 13px;
+	color: #71797f;
+}
+.huayu-name{
+	flex: 8;
+	font-size: 13px;
+}
+.detailRight #btn{
+	width: 80%;
+	margin:80px auto;
+
+}
+#btn .addcar{
+	width: 200px;
+	height: 50px;
+	background: #fff0ec;
+	border-radius: 25px;
+	border: 1px solid #ffdcd2;
+	margin-right: 50px;
+	color: #ff754c;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#btn .pay{
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	border: 0px;
+	color: #fff0ec;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	background-image:linear-gradient(to left,#ff3e13,#ff724b) ;
+}
+.block{
+	display: block;
+}
+.none{
+	display: none;
+}
